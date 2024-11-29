@@ -1,0 +1,16 @@
+{% extends 'shop/basic.html' %}
+{% block title %} {{product.product_name}}- My Awesome cart{% endblock %}
+{% block body %} 
+<div class="container">
+  <div class="col-md-4">
+  <div class="row">
+    Image here
+  </div>
+  </div>
+</div>
+
+<div class="col-md-8">
+  <h5>{{product.product_name}}</h5>
+  <p>{{product.desc}}</p>
+</div>
+{%endblock%}
